@@ -1,0 +1,33 @@
+{
+
+  luxe:{
+    window: {
+      title:'Ball Fall',
+      fullscreen:true,
+      resizable:false,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'Ball Fall',
+    version : '1.0.0',
+    author : 'Charlie McClung',
+
+    app : {
+      name : 'ball_fall',
+      package : 'com.cmr1.ballfall'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+        nape : '*',
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+  }
+}
